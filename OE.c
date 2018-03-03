@@ -4,12 +4,12 @@ void main()
 int N;
 printf("ENTER THE N VALUE");
 scanf("%d",&N);
-if(1<=N<=100000)
+if(N%2==0)
 {
-printf(" \n ODD");
+printf(" \n Even");
 }
 else
 {
-printf(" \n EVEN");
+printf(" \n Odd");
 }
 }
